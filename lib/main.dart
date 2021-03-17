@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
           backgroundColor: Colors.teal,
           body: SafeArea(
-            child: Column(
-                mainAxisSize: MainAxisSize.min,
+            child: Row(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
                   height: 100.0,
