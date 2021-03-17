@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
           body: SafeArea(
             child: Row(
                 
-              crossAxisAlignment: CrossAxisAlignment.stretch,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[
                 Container(
                   height: double.infinity,
