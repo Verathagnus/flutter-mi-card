@@ -12,7 +12,6 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.teal,
           body: SafeArea(
             child: Row(
-                
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Container(
@@ -22,10 +21,22 @@ class MyApp extends StatelessWidget {
                   child: Text('Container 1'),
                 ),
                 Container(
-                  height: 100.0,
-                  width: 100.0,
-                  color: Colors.yellow,
-                  child: Text('Container 3'),
+                  child: Column(
+                    children: <Widget>[
+                      Container(
+                        height: 100.0,
+                        width: 100.0,
+                        color: Colors.yellow,
+                        child: Text('Container 3'),
+                      ),
+                      Container(
+                        height: 100.0,
+                        width: 100.0,
+                        color: Colors.lime,
+                        child: Text('Container 3-'),
+                      ),
+                    ],
+                  ),
                 ),
                 Container(
                   height: double.infinity,
