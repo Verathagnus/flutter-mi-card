@@ -37,11 +37,13 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Container(
+                    color: Colors.white,
                     child: Row(
                         children: <Widget>[Icon(
                             Icons.phone,
-                            color: Colors.white,
+                            color: Colors.teal,
                         ),
+                        SizedBox(width: 10.0,),
                         Text('+91 8134 XXX XXX',
                             style: TextStyle(
                                 color: Colors.teal[900],
