@@ -17,15 +17,6 @@ class MyApp extends StatelessWidget {
                   radius: 50.0,
                   backgroundImage: AssetImage('images/profile-pic.jpg'),
                 ),
-                // Text(
-                //   'Bishwaraj Paul',
-                //   style: TextStyle(
-                //     fontFamily: 'Great Vibes',
-                //     fontSize: 40.0,
-                //     color: Colors.white,
-                //     fontWeight: FontWeight.bold,
-                //   ),
-                // ),
                 Text(
                   'Bishwaraj Paul',
                   style: TextStyle(
@@ -44,6 +35,13 @@ class MyApp extends StatelessWidget {
                     letterSpacing: 2.5,
                     fontWeight: FontWeight.bold,
                   ),
+                ),
+                COntainer(
+                    child: Row(
+                        children <Widget>[Icon(
+                            Icons.add_shopping_cart,
+                        ),],
+                    ),
                 ),
               ],
             ),
