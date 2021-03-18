@@ -37,51 +37,55 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Card(
-                  color: Colors.white,
-                  margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.phone,
-                        color: Colors.teal,
+                    color: Colors.white,
+                    margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(10.0, 25.0),
+                      child: Row(
+                        children: <Widget>[
+                          Icon(
+                            Icons.phone,
+                            color: Colors.teal,
+                          ),
+                          SizedBox(
+                            width: 10.0,
+                          ),
+                          Text(
+                            '+91 8134 XXX XXX',
+                            style: TextStyle(
+                              color: Colors.teal[900],
+                              fontFamily: 'Source Sans Pro',
+                              fontSize: 20.0,
+                            ),
+                          ),
+                        ],
                       ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        '+91 8134 XXX XXX',
-                        style: TextStyle(
-                          color: Colors.teal[900],
-                          fontFamily: 'Source Sans Pro',
-                          fontSize: 20.0,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
+                    )),
                 Card(
-                  color: Colors.white,
-                  margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.email,
-                        color: Colors.teal,
+                    color: Colors.white,
+                    margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(10.0, 25.0),
+                      child: Row(
+                        children: <Widget>[
+                          Icon(
+                            Icons.email,
+                            color: Colors.teal,
+                          ),
+                          SizedBox(
+                            width: 10.0,
+                          ),
+                          Text(
+                            'bishwaraj*@gmail.com',
+                            style: TextStyle(
+                              color: Colors.teal[900],
+                              fontFamily: 'Source Sans Pro',
+                              fontSize: 20.0,
+                            ),
+                          ),
+                        ],
                       ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        'bishwaraj*@gmail.com',
-                        style: TextStyle(
-                          color: Colors.teal[900],
-                          fontFamily: 'Source Sans Pro',
-                          fontSize: 20.0,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
+                    )),
               ],
             ),
           )),
