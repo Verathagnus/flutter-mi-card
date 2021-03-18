@@ -55,7 +55,9 @@ class MyApp extends StatelessWidget {
                         ),
                         ],
                 ),
-                Container(
+                
+            ),
+            Container(
                     color: Colors.white,
                     margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 25.0),
                     padding: EdgeInsets.all(10.0),
@@ -75,7 +77,6 @@ class MyApp extends StatelessWidget {
                         ],
                     ),
                 ),
-            ),
             ],
             ),
           )),
