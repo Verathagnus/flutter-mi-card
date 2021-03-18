@@ -36,9 +36,9 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Flutter Developer',
+                  'FLUTTER DEVELOPER',
                   style: TextStyle(
-                    fontFamily: 'Pacifico',
+                    fontFamily: 'Source Sans Pro',
                     fontSize: 40.0,
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
