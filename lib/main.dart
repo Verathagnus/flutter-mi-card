@@ -62,11 +62,11 @@ class MyApp extends StatelessWidget {
                     child: Padding(
                       padding: EdgeInsets.all(10.0),
                       child: ListTile(
-                        title: Icon(
+                        leading: Icon(
                           Icons.email,
                           color: Colors.teal,
                         ),
-                        leading: Text(
+                        title: Text(
                           'bishwaraj*@gmail.com',
                           style: TextStyle(
                             color: Colors.teal[900],
