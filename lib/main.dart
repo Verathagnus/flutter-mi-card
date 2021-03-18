@@ -17,17 +17,26 @@ class MyApp extends StatelessWidget {
                   radius: 50.0,
                   backgroundImage: AssetImage('images/profile-pic.jpg'),
                 ),
+                // Text(
+                //   'Bishwaraj Paul',
+                //   style: TextStyle(
+                //     fontFamily: 'Great Vibes',
+                //     fontSize: 40.0,
+                //     color: Colors.white,
+                //     fontWeight: FontWeight.bold,
+                //   ),
+                // ),
                 Text(
                   'Bishwaraj Paul',
                   style: TextStyle(
-                    fontFamily: 'Great Vibes',
+                    fontFamily: 'Pacifico',
                     fontSize: 40.0,
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
                 Text(
-                  'Bishwaraj Paul',
+                  'Flutter Developer',
                   style: TextStyle(
                     fontFamily: 'Pacifico',
                     fontSize: 40.0,
