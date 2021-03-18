@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.white,
                     margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                     child: Padding(
-                      padding: EdgeInsets.symmetric(10.0, 25.0),
+                      padding: EdgeInsets.all(10.0),
                       child: Row(
                         children: <Widget>[
                           Icon(
@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.white,
                     margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                     child: Padding(
-                      padding: EdgeInsets.symmetric(10.0, 25.0),
+                      padding: EdgeInsets.all(10.0),
                       child: Row(
                         children: <Widget>[
                           Icon(
