@@ -62,8 +62,8 @@ class MyApp extends StatelessWidget {
                     child: Row(
                         children: <Widget>[
                             Icon(
-                                child: Icons.email,
-                                    color: Colors.teal,
+                                Icons.email,
+                                color: Colors.teal,
                             ),
                             SizedBox(width: 10.0,),
                             Text('bishwaraj.paul98@gmail.com', 
