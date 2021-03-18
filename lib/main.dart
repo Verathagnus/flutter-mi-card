@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
                 ),
                 COntainer(
                     child: Row(
-                        children <Widget>[Icon(
+                        children: <Widget>[Icon(
                             Icons.add_shopping_cart,
                         ),],
                     ),
