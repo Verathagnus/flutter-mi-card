@@ -17,9 +17,16 @@ class MyApp extends StatelessWidget {
                   radius: 50.0,
                   backgroundImage: AssetImage('images/profile-pic.jpg'),
                 ),
+                Text(
+                    'Bishwaraj Paul',
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        color: Colors.white,
+                    ),
+                ),
               ],
             ),
-          )),
+        )),
     );
   }
 }
