@@ -74,7 +74,7 @@ class MyApp extends StatelessWidget {
                         width: 10.0,
                       ),
                       Text(
-                        '+91 8134 XXX XXX',
+                        'bishwaraj*@gmail.com',
                         style: TextStyle(
                           color: Colors.teal[900],
                           fontFamily: 'Source Sans Pro',
