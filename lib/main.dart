@@ -36,10 +36,9 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                Container(
+                Card(
                   color: Colors.white,
                   margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  padding: EdgeInsets.all(10.0),
                   child: Row(
                     children: <Widget>[
                       Icon(
@@ -60,10 +59,9 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                Container(
+                Card(
                   color: Colors.white,
                   margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  padding: EdgeInsets.all(10.0),
                   child: Row(
                     children: <Widget>[
                       Icon(
@@ -74,7 +72,7 @@ class MyApp extends StatelessWidget {
                         width: 10.0,
                       ),
                       Text(
-                        'bishwaraj.paul98@gmail.com',
+                        'bishwaraj*@gmail.com',
                         style: TextStyle(
                           color: Colors.teal[900],
                           fontFamily: 'Source Sans Pro',
