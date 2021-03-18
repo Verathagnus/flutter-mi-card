@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
                             SizedBox(width: 10.0,),
                             Text('bishwaraj.paul98@gmail.com', 
                                 style: TextStyle(
-                                    color: COlors.teal[900],
+                                    color: Colors.teal[900],
                                     fontFamily: 'Source Sans Pro',
                                     fontSize: 20.0,
                             ),),
