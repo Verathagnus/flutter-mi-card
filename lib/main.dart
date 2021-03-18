@@ -39,8 +39,17 @@ class MyApp extends StatelessWidget {
                 Container(
                     child: Row(
                         children: <Widget>[Icon(
-                            Icons.add_shopping_cart,
-                        ),],
+                            Icons.phone,
+                            color: Colors.white,
+                        ),
+                        Text('+91 8134 XXX XXX',
+                            style: TextStyle(
+                                color: Colors.teal[900],
+                                fontFamily: 'Source Sans Pro',
+                                fontSize: 20.0,
+                            ),
+                        ),
+                        ],
                     ),
                 ),
               ],
